@@ -5,7 +5,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <title>Clear View Escapes</title>
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
-  <meta name="description" content="Your clarify. One trip away. We create soul restoring journeys that inspire you to be you.">
+  <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
 </head>
 <body>
   <header class="site-header">
@@ -24,9 +24,9 @@
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#our-beginning">Our Beginning</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#our-beginning" id="our-beginning-link">Our Beginning</a></li>
+            <li><a href="#features" id="features-link">Features</a></li>
+            <li><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
           </ul>
         </nav>
       </div>
@@ -52,7 +52,7 @@
     </div>
   </div>
 
-  <div id="our-beginning" class="page-section">
+  <div id="our-beginning" class="page-section" data-matching-link="#our-beginning-link">
     <div class="wrapper">
       <h2 class="headline headline--centered headline--light headline--b-margin-small">The first trip we planned <strong>was our own.</strong></h2>
       <h3 class="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
@@ -81,7 +81,7 @@
     </div>
   </div>
 
-  <div id="features" class="page-section page-section--blue">
+  <div id="features" class="page-section page-section--blue" data-matching-link="#features-link">
     <div class="wrapper">
       <h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/star.svg"> Our <strong>Features</strong></h2>
 
@@ -120,7 +120,7 @@
     </div>
   </div>
 
-  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials">
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
       <h2 class="section-title section-title--blue"><img class="section-title__icon" src="assets/images/icons/comment.svg"> Real <strong>Testimonials</strong></h2>
 
@@ -166,7 +166,6 @@
       <p><span class="site-footer__text">Copyright &copy; 2019 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn--orange">Get in Touch</a></p>
     </div>
   </footer>
-  <!-- Leave this commented out HTML here until you need it for an upcoming "modal" lesson
   <div class="modal">
     <div class="modal__inner">
       <h2 class="section-title section-title--blue section-title--less-margin"><img src="assets/images/icons/mail.svg" class="section-title__icon"> Get in <strong>Touch</strong></h2>
@@ -183,7 +182,6 @@
     </div>
     <div class="modal__close">X</div>
   </div>
-  This is the end of the "modal" reference HTML -->
   <script src="bundled.js"></script>
 </body>
 </html>
